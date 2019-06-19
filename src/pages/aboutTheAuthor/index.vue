@@ -9,6 +9,7 @@
           <p class="nikename">昵称:前端劝退专家</p>
           <p class="introduce-time">入坑时间:1+年</p>
         </div>
+        <div class="introduce-me">个人介绍：你好，我是前端劝退师，一个坚持早晨6点起床的宅男，你有多久没没有读完一本书了？如果你也想改变，欢迎加入我们早期队伍中~</div>
       </nav>
     </div>
   </div>
@@ -64,6 +65,10 @@ export default {
         padding-left: 100px;
         margin: 10px;
         font-weight: bolder;
+      }
+      .introduce-me {
+        color: #fff;
+        padding: 0 30px;
       }
     }
   }
