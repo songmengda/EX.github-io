@@ -1,5 +1,4 @@
 
-
 const Index = r => require.ensure([], () => r(require('../pages/index')), 'index')
 
 const routes = [
@@ -18,6 +17,6 @@ const routes = [
     meta: {
       title: '前端劝退专家'
     }
-  },
+  }
 ]
 export default routes
